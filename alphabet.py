@@ -21,9 +21,6 @@ def main():
     given_words = given_words.upper()
     unsused_letter = ""
     for letter in ALPHABET:
-        #Cite: Peer Lucas Barusik 
-        #Desc: Explain how "if__not in__" statement exists
-        #and how to use it
         if letter not in given_words:
             unsused_letter = unsused_letter + letter
 
