@@ -1,14 +1,14 @@
 """
  *****************************************************************************
-   FILE:        ball.py
+   FILE:          ball.py
 
-   AUTHOR:      Truong Pham
-
-   ASSIGNMENT:  Project 3: Part 2
-
-   DATE:        9/12/18
-
-   DESCRIPTION:	Find the total distance traveled of a drop ball
+   DESCRIPTION:	Find the total distance traveled of a drop ball.
+   
+                  Here is a sample interaction with the program:
+                  Enter initial height: 10
+                  Enter height of first bounce: 6
+                  Enter number of bounces: 2
+                  The total distance the ball traveled is 25.6 feet.
 
  *****************************************************************************
 """
@@ -16,6 +16,7 @@
 def main():
     """ This function calculate the distance traveled by a bouncing
         ball as it drop from a given height """
+      
     drop_height = float(input("Enter initial height: "))
     bounce = float(input("Enter height of first bounce: "))
     bounce_counted = float(input("Enter number of bounces: "))
