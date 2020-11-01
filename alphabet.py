@@ -1,14 +1,14 @@
 """
  *****************************************************************************
-   FILE:        alphabet.py
-
-   AUTHOR:		Truong Pham
-
-   ASSIGNMENT:	Project 3: Part 1: Alphabet
-
-   DATE:		9/11/18
+   FILE:          alphabet.py
 
    DESCRIPTION:	Find words in the alphabet that did not used in a phrase
+   
+                  Here is a sample interaction with the program.
+                  Enter some text: The quick brown fox ate 4 rotten eggs and 
+                                   said "YUCK!"
+                  Letters not in the text: JLMPVZ
+
 
  *****************************************************************************
 """
@@ -16,6 +16,7 @@ ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 def main():
     """ This program tell you what words was not use in a phrase"""
+      
     given_words = input("Enter some text: ")
     given_words = given_words.upper()
     unsused_letter = ""
