@@ -1,21 +1,32 @@
 """
  *****************************************************************************
-   FILE:        microwave.py
+   FILE:          microwave.py
 
-   AUTHOR:		  Truong Pham
-
-   ASSIGNMENT:	Project 3: Part 3: Second Countdown
-
-   DATE:		    9/11/18
-
-   DESCRIPTION:	This program will countdown the second on the microwave for you
-
+   DESCRIPTION:	This program will countdown the second on the microwave for 
+                  you.
+                  
+                  Here is a sample interaction with this program:
+                  Enter the digits as input to the microwave: 10:03
+                  10:03
+                  10:02
+                  10:01
+                  10:00
+                  9:59
+                  9:58
+                  9:57
+                  ...
+                  0:03
+                  0:02
+                  0:01
+                  0:00
+                  
  *****************************************************************************
 """
 
 def main():
     """ This function will print out every count of second
         from input time to 0:00 """
+      
     input_time = input("Enter the digits as input to the microwave: ")
     minute = int(input_time[:input_time.find(":")])  
     second = int(input_time[input_time.find(":") + 1:])
